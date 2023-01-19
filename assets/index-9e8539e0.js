@@ -145,7 +145,7 @@ class h {
     const s = document.createElement("header");
     s.className = "header";
     const l = document.createElement("img");
-    (l.src = "../img/logo.svg"), (l.alt = "logo"), s.appendChild(l);
+    (l.src = "./img/logo.svg"), (l.alt = "logo"), s.appendChild(l);
     const o = document.createElement("div");
     (o.className = "input_wrapper"), s.appendChild(o);
     const e = document.createElement("input");
@@ -155,7 +155,7 @@ class h {
     const t = document.createElement("button");
     (t.className = "button"), (t.innerText = "Create");
     const n = document.createElement("img");
-    (n.src = "../img/plus.svg"),
+    (n.src = "./img/plus.svg"),
       (n.alt = "plus"),
       t.appendChild(n),
       o.appendChild(e),

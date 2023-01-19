@@ -231,7 +231,7 @@ summary {
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
-  background-image: url(./trash-5a932a8b.svg);
+  background-image: url(/assets/trash-5a932a8b.svg);
   border-radius: 4px;
   background-position: center;
   transition: background-image 0.3s ease, background-color 0.3s linear;
@@ -239,7 +239,7 @@ summary {
   top: 0;
 }
 .trash:hover {
-  background-image: url(./trashhover-26895cd5.svg);
+  background-image: url(/assets/trashhover-26895cd5.svg);
   background-color: #333;
 }
 .completed {
@@ -253,7 +253,7 @@ summary {
   cursor: pointer;
   width: 20px;
   height: 20px;
-  background-image: url(./uncheked-45551154.svg);
+  background-image: url(/assets/uncheked-45551154.svg);
   position: absolute;
   background-repeat: no-repeat;
 }
@@ -261,7 +261,7 @@ summary {
   opacity: 0.7;
 }
 .check_input:checked + .check_box {
-  background-image: url(./checked-c6e5fc67.svg);
+  background-image: url(/assets/checked-c6e5fc67.svg);
 }
 .check_input:checked + .check_box:hover {
   opacity: 0.7;
